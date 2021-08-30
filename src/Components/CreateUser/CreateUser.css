@@ -1,0 +1,36 @@
+input{
+
+    width:70%;
+    padding: 10px;
+}
+input:focus{
+    outline: none;
+}
+.form-wrapper{
+
+    margin-left: 250px;
+    margin-top: 50px;
+}
+@media only screen and (min-width:320px) and (max-width:992px){
+
+    .form-wrapper{
+
+        margin-left: 0;
+    }
+    input{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:319px){
+
+    
+    .form-wrapper{
+
+        margin-left: 0;
+    }
+    input{
+        width: 90%;
+    }
+
+
+}
