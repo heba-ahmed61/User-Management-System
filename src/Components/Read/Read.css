@@ -8,6 +8,10 @@
 
     
 }
+.home-link{
+
+    margin-bottom: 60px;
+}
 .read-id , .read-name , .read-email , .read-mobile , .read-role{
 
     text-align: left;
@@ -27,6 +31,8 @@
 }
 
 @media only screen and (min-width:320px) and (max-width:767.9px){
+
+    
 
     .read{
     width: 90%;
@@ -52,6 +58,7 @@
 }
 
 @media only screen and (max-width:319px){
+    
 
     .read{
     width: 90%;
